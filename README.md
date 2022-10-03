@@ -20,8 +20,7 @@ ____
         'polls',
     ]
 1. and add this to your urls.py as suggested
-
-  path('polls/', include('polls.urls')),
+      path('polls/', include('polls.urls')),
 
 1. now run python manage.py migrate 
 
